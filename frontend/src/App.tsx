@@ -1,18 +1,17 @@
-function App() {
-  
-/** comment stracture
- * * Important information
- * ! Deprecated
- * ? question ?
- * TODO: something
- * @param param this is rapameter. uses is.....
- */
+import Navbar from "./components/Nav/Navbar";
 
-  return (
-   <h1>
-    Welcome to the AI based ecommerce
-   </h1>
-  )
+function App() {
+  /** comment stracture
+   * * Important information
+   * ! Deprecated
+   * ? question ?
+   * TODO: something
+   * @param param this is rapameter. uses is.....
+   */
+
+  return <>
+      <Navbar />
+  </>;
 }
 
-export default App
+export default App;
